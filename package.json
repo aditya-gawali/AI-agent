@@ -13,14 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/aditya-gawali/AI-agent/issues"
   },
   "homepage": "https://github.com/aditya-gawali/AI-agent#readme",
   "dependencies": {
     "@langchain/core": "^0.3.66",
+    "@langchain/google-genai": "^0.2.15",
     "@langchain/langgraph": "^0.3.11",
+    "dotenv": "^17.2.0",
+    "langchain": "^0.3.30",
     "zod": "^3.25.76"
   }
 }
